@@ -1,0 +1,126 @@
+{
+    "subject": "Aerospace/Defense - Major Diversified",
+    "columns": [
+        {
+            "key": "yield",
+            "full_name": "Annual Yield(Money)",
+            "type": "NUMERIC",
+            "is_objective": false,
+            "goal": "MAX"
+        },
+        {
+            "key": "volume",
+            "full_name": "Volume(Quantity)",
+            "type": "NUMERIC",
+            "is_objective": true,
+            "goal": "MAX"
+        },
+        {
+            "key": "dayhigh",
+            "full_name": "Day High",
+            "type": "NUMERIC",
+            "is_objective": false,
+            "goal": "MAX"
+        },
+		{
+			"key": "daylow",
+			"full_name": "Day Low",
+			"type": "NUMERIC",
+			"is_objective": false,
+			"goal": "MAX"
+		},
+		{
+			"key": "changefromlow",
+			"full_name": "Change From Year Low",
+			"type": "NUMERIC",
+			"is_objective": true,
+			"goal": "MIN"
+		},
+		{
+            "key": "changefromhigh",
+            "full_name": "Change From Year High",
+            "type": "NUMERIC",
+            "is_objective": true,
+            "goal": "MAX"
+        },
+        {
+            "key": "price",
+            "full_name": "Price (mAh)",
+            "type": "NUMERIC",
+            "is_objective": false,
+            "goal": "MAX"
+        }
+    ],
+    "options": [
+        {
+            "key": " 1",
+            "name": "Northrop Grumman",
+            "values": {
+                "yield": 2.71,
+                "volume": 1364179,
+                "dayhigh": 172.3,
+                "daylow": 169.48,
+                "changefromlow": 56.09,
+                "changefromhigh": 48.31,
+                "price": 172.2
+            },
+            "description_html": "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Samsung_GALAXY_S4_zoom_%28White%29.jpg/800px-Samsung_GALAXY_S4_zoom_%28White%29.jpg'/> <a title='Photo by Samsung Belgium (Flickr: GALAXY S4 zoom (1)) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_GALAXY_S4_zoom_(White).jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+        },
+        {
+            "key": "2",
+            "name": "MTU AERO ENGINES",
+            "values": {
+                "yield": 1.35,
+                "volume": 115142,
+                "dayhigh": 82.75,
+                "daylow": 81.85,
+                "changefromlow": 22.52,
+                "changefromhigh": 37.61,
+                "price": 82.4
+            },
+            "description_html": "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+        },
+        {
+            "key": "3",
+            "name": "RAYTHEON",
+            "values": {
+                "yield": 2.365,
+                "volume": 15,
+                "dayhigh": 95.806,
+                "daylow": 93.774,
+                "changefromlow": 29.379,
+                "changefromhigh": 44.3,
+                "price": 95.699
+            },
+            "description_html": "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Samsung_Galaxy_S_III.png/300px-Samsung_Galaxy_S_III.png'/> <a title='Photo by GalaxyOptimus (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_III.png' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+        },
+        {
+            "key": "4",
+            "name": "NORTHROP GRUMMAN",
+            "values": {
+                "yield": 2.62,
+                "volume": 4,
+                "dayhigh": 149.3,
+                "daylow": 149.3,
+                "changefromlow": 62.38,
+                "changefromhigh": 74.26,
+                "price": 146.38
+            },
+            "description_html": "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Samsung_Galaxy_S_Advance_i9070.JPG/250px-Samsung_Galaxy_S_Advance_i9070.JPG'/> <a title='Photo by Macs79 (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_Advance_i9070.JPG' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+        },
+        {
+            "key": "5",
+            "name": "BAE SYSTEMS",
+            "values": {
+                "yield": 20.3,
+                "volume": 6857203,
+                "dayhigh": 532,
+                "daylow": 522,
+                "changefromlow": 155.9,
+                "changefromhigh": 41.67,
+                "price": 530
+            },
+            "description_html": "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Samsung_Galaxy_S_III_mini.png/300px-Samsung_Galaxy_S_III_mini.png'/> <a title='Photo by GalaxyOptimus (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_III_mini.png' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "subject": "Advertising Agencies",
+    "columns": [
+        {
+            "key": "yield",
+            "full_name": "Annual Yield(Money)",
+            "type": "NUMERIC",
+            "is_objective": false,
+            "goal": "MAX"
+        },
+        {
+            "key": "volume",
+            "full_name": "Volume(Quantity)",
+            "type": "NUMERIC",
+            "is_objective": true,
+            "goal": "MAX"
+        },
+        {
+            "key": "dayhigh",
+            "full_name": "Day High",
+            "type": "NUMERIC",
+            "is_objective": false,
+            "goal": "MAX"
+        },
+		{
+			"key": "daylow",
+			"full_name": "Day Low",
+			"type": "NUMERIC",
+			"is_objective": false,
+			"goal": "MAX"
+		},
+		{
+			"key": "changefromlow",
+			"full_name": "Change From Year Low",
+			"type": "NUMERIC",
+			"is_objective": true,
+			"goal": "MIN"
+		},
+		{
+            "key": "changefromhigh",
+            "full_name": "Change From Year High",
+            "type": "NUMERIC",
+            "is_objective": true,
+            "goal": "MAX"
+        },
+        {
+            "key": "price",
+            "full_name": "Price (mAh)",
+            "type": "NUMERIC",
+            "is_objective": false,
+            "goal": "MAX"
+        }
+    ],
+    "options": [
+        {
+            "key": " 1",
+            "name": "CLEAR MEDIA",
+            "values": {
+                "yield": 0.15,
+                "volume": 6300,
+                "dayhigh": 0.916,
+                "daylow": 0.916,
+                "changefromlow": 0.224,
+                "changefromhigh": 35.61,
+                "price": 0.853
+            },
+            "description_html": "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Samsung_GALAXY_S4_zoom_%28White%29.jpg/800px-Samsung_GALAXY_S4_zoom_%28White%29.jpg'/> <a title='Photo by Samsung Belgium (Flickr: GALAXY S4 zoom (1)) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_GALAXY_S4_zoom_(White).jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+        },
+        {
+            "key": "2",
+            "name": "Interpublic Group",
+            "values": {
+                "yield": 0.38,
+                "volume": 6327375,
+                "dayhigh": 22.45,
+                "daylow": 22.04,
+                "changefromlow": 6.29,
+                "changefromhigh": 38.97,
+                "price": 22.43
+            },
+            "description_html": "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+        },
+        {
+            "key": "3",
+            "name": "PUBLICIS GROUPE",
+            "values": {
+                "yield": 1.1,
+                "volume": 767431,
+                "dayhigh": 71.68,
+                "daylow": 70.87,
+                "changefromlow": 21.66,
+                "changefromhigh": 43.65,
+                "price": 71.28
+            },
+            "description_html": "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Samsung_Galaxy_S_III.png/300px-Samsung_Galaxy_S_III.png'/> <a title='Photo by GalaxyOptimus (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_III.png' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+        },
+        {
+            "key": "4",
+            "name": "STROEER MEDIA",
+            "values": {
+                "yield": 0.0736,
+                "volume": 135,
+                "dayhigh": 27.555,
+                "daylow": 27.555,
+                "changefromlow": 14.75,
+                "changefromhigh": 125.76,
+                "price": 26.47
+            },
+            "description_html": "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Samsung_Galaxy_S_Advance_i9070.JPG/250px-Samsung_Galaxy_S_Advance_i9070.JPG'/> <a title='Photo by Macs79 (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_Advance_i9070.JPG' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+        },
+        {
+            "key": "5",
+            "name": "TARSUS GROUP",
+            "values": {
+                "yield": 9.8,
+                "volume": 1217,
+                "dayhigh": 214.108,
+                "daylow": 210.415,
+                "changefromlow": 24.687,
+                "changefromhigh": 13.12,
+                "price": 212.875
+            },
+            "description_html": "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Samsung_Galaxy_S_III_mini.png/300px-Samsung_Galaxy_S_III_mini.png'/> <a title='Photo by GalaxyOptimus (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_III_mini.png' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+        }
+    ]
+}

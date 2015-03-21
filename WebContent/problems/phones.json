@@ -1,0 +1,126 @@
+{
+    "subject": "Accident & Health Insurance",
+    "columns": [
+        {
+            "key": "yield",
+            "full_name": "Annual Yield(Money)",
+            "type": "NUMERIC",
+            "is_objective": false,
+            "goal": "MAX"
+        },
+        {
+            "key": "volume",
+            "full_name": "Volume(Quantity)",
+            "type": "NUMERIC",
+            "is_objective": true,
+            "goal": "MAX"
+        },
+        {
+            "key": "dayhigh",
+            "full_name": "Day High",
+            "type": "NUMERIC",
+            "is_objective": false,
+            "goal": "MAX"
+        },
+		{
+			"key": "daylow",
+			"full_name": "Day Low",
+			"type": "NUMERIC",
+			"is_objective": false,
+			"goal": "MAX"
+		},
+		{
+			"key": "changefromlow",
+			"full_name": "Change From Year Low",
+			"type": "NUMERIC",
+			"is_objective": true,
+			"goal": "MIN"
+		},
+		{
+            "key": "changefromhigh",
+            "full_name": "Change From Year High",
+            "type": "NUMERIC",
+            "is_objective": true,
+            "goal": "MAX"
+        },
+        {
+            "key": "price",
+            "full_name": "Price (mAh)",
+            "type": "NUMERIC",
+            "is_objective": false,
+            "goal": "MAX"
+        }
+    ],
+    "options": [
+        {
+            "key": " 1",
+            "name": "AUSTBROKER FPO",
+            "values": {
+                "yield": 0.5,
+                "volume": 18523,
+                "dayhigh": 9,
+                "daylow": 8.95,
+                "changefromlow": 0.78,
+                "changefromhigh": 9.5,
+                "price": 8.99
+            }, 
+            "description_html": "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Samsung_GALAXY_S4_zoom_%28White%29.jpg/800px-Samsung_GALAXY_S4_zoom_%28White%29.jpg'/> <a title='Photo by Samsung Belgium (Flickr: GALAXY S4 zoom (1)) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_GALAXY_S4_zoom_(White).jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+        },
+        {
+            "key": "2",
+            "name": "Employers Holding",
+            "values": {
+                "yield": 0.18,
+                "volume": 219831,
+                "dayhigh": 24.18,
+                "daylow": 23.43,
+                "changefromlow": 5.02,
+                "changefromhigh": 26.69,
+                "price": 23.83
+            },
+            "description_html": "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Samsung_Galaxy_S4.jpg/200px-Samsung_Galaxy_S4.jpg'/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+        },
+        {
+            "key": "3",
+            "name": "NIBHOLDING FPO",
+            "values": {
+                "yield": 0.1571,
+                "volume": 434347,
+                "dayhigh": 3.73,
+                "daylow": 3.55,
+                "changefromlow": 1.16,
+                "changefromhigh": 46.22,
+                "price": 3.67
+            },
+            "description_html": "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Samsung_Galaxy_S_III.png/300px-Samsung_Galaxy_S_III.png'/> <a title='Photo by GalaxyOptimus (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_III.png' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+        },
+        {
+            "key": "4",
+            "name": "ProAssurance Corp",
+            "values": {
+                "yield": 3.86,
+                "volume": 150366,
+                "dayhigh": 8.4,
+                "daylow": 3.59,
+                "changefromlow": 45.72,
+                "changefromhigh": 46.455,
+                "price": 8.99
+            },
+            "description_html": "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Samsung_Galaxy_S_Advance_i9070.JPG/250px-Samsung_Galaxy_S_Advance_i9070.JPG'/> <a title='Photo by Macs79 (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_Advance_i9070.JPG' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+        },
+        {
+            "key": "5",
+            "name": "CNO Financial Gro",
+            "values": {
+                "yield": 0.24,
+                "volume": 1350925,
+                "dayhigh": 16.59,
+                "daylow": 16.14,
+                "changefromlow": 1.5,
+                "changefromhigh": 10.07,
+                "price": 16.39
+            },
+            "description_html": "<img style='max-height: 100px; max-width: 100px;'  src='http://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Samsung_Galaxy_S_III_mini.png/300px-Samsung_Galaxy_S_III_mini.png'/> <a title='Photo by GalaxyOptimus (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S_III_mini.png' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://mirrors.creativecommons.org/presskit/icons/cc.png'/> </a>"
+        }
+    ]
+}
